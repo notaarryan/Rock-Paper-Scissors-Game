@@ -22,16 +22,30 @@
     height: 100%;
     border: none;
     border-radius: 100px;
-}
-
-#rock {
-    margin-left: 300px;
-}
-
-#scissors {
-    margin-right: 300px;
+    background-color: #E4D6A7;
 }
 
 .icons {
     height: 150px;
+}
+
+#pointCount {
+    display: flex;
+    width: 100%;
+    height: 40px;
+    justify-content: center;
+    font-size: 30px;
+    align-items: center;
+    column-gap: 50px;
+    margin-bottom: 80px;
+}
+
+.point {
+    font-weight: bold;
+    color: #556b2f;
+}
+
+#instruction {
+    font-size: 40px;
+    font-weight: 450;
 }
